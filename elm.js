@@ -4995,7 +4995,7 @@ var $author$project$Elmstatic$decodePostList = A5(
 	A2($elm$json$Json$Decode$field, 'siteTitle', $elm$json$Json$Decode$string),
 	A2($elm$json$Json$Decode$field, 'title', $elm$json$Json$Decode$string));
 var $elm$html$Html$div = _VirtualDom_node('div');
-var $elm$html$Html$h2 = _VirtualDom_node('h2');
+var $elm$html$Html$h4 = _VirtualDom_node('h4');
 var $elm$json$Json$Encode$string = _Json_wrap;
 var $elm$html$Html$Attributes$stringProperty = F2(
 	function (key, string) {
@@ -5616,7 +5616,7 @@ var $author$project$Page$header = _List_fromArray(
 				_List_fromArray(
 					[
 						$elm$html$Html$Attributes$alt('Author\'s blog'),
-						$elm$html$Html$Attributes$src('/img/logo.png'),
+						$elm$html$Html$Attributes$src('/img/mooncake.png'),
 						A2($elm$html$Html$Attributes$attribute, 'width', '100')
 					]),
 				_List_Nil)
@@ -9251,7 +9251,7 @@ var $author$project$Posts$main = function () {
 					_List_fromArray(
 						[
 							A2(
-							$elm$html$Html$h2,
+							$elm$html$Html$h4,
 							_List_Nil,
 							_List_fromArray(
 								[

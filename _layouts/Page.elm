@@ -53,8 +53,10 @@ markdown s =
 
 header : List (Html Never)
 header =
-    [ div [ class "header-logo" ]
-        [ img [ alt "Author's blog", src "/img/logo.png", attribute "width" "100" ]
+    [ 
+        div [ class "header-logo" ]
+        [ 
+            img [ alt "Author's blog", src "/img/mooncake.png", attribute "width" "100" ]
             []
         ]
     , div [ class "navigation" ]
