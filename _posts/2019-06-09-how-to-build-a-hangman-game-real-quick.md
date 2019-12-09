@@ -1,6 +1,6 @@
 ---
 title: "How to Build a Hangman Game Real Quick"
-tags: javascript software
+tags: javascript software tutorial
 ---
 
 

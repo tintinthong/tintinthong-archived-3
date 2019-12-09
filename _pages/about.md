@@ -9,7 +9,7 @@ Hi, my name is Justin. I am a data engineer with goals to:
 
 I program primarily in Javascript, R and Haskell. I am also an avid Vimster with a deep desire to emancipate myself from VS Code. Currently, I am building infrastructure to support an adaptive learning engine in Haskell and Javascript.  
 
- The main reason I start this blog is for self-reference, therefore, pardon me for amateurishly-edited articles. I will try my best to  maintain my articles to the level that is effective for other people's learning. If you find my content and code interesting, please do message me feedback or submit an issue.
+ The main reason I start this blog is for self-reference, therefore, pardon me for amateurishly-edited articles. I will try my best to  maintain my articles such that it is effective and shareable. If you find my content and code interesting, please do message me feedback or submit an issue.
 
 If you have visited my previous site, you will have noticed that I have changed my layout; I ported my site from Jekyll to Elm-Static. I did it (partially) because I wanted to experiment with some Elm, but, mostly to make a more content-centric site. My previous site was filled with cards and meta data about my Github repo which was unnecessary.
 

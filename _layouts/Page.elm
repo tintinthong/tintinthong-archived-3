@@ -62,12 +62,12 @@ header =
     , div [ class "navigation" ]
         [ ul []
             [ li []
-                [ a [ href "/posts" ]
-                    [ text "Posts" ]
-                ]
-            , li []
                 [ a [ href "/about" ]
                     [ text "About" ]
+                ]
+            , li []
+                [ a [ href "/posts" ]
+                    [ text "Posts" ]
                 ]
             , li []
                 [ a [ href "/contact" ]
@@ -81,27 +81,28 @@ header =
 footer : Html Never
 footer =
     div [ class "footer" ]
-        [ img
-            [ alt "Author's blog"
-            , src "/img/logo.png"
-            , attribute "style" "float: left; padding-top: 7px"
-            , attribute "width" "75"
-            ]
-            []
-        , div [ class "link" ]
+        [ 
+            -- img
+            -- [ alt "Author's blog"
+            -- , src "/img/logo.png"
+            -- , attribute "style" "float: left; padding-top: 7px"
+            -- , attribute "width" "75"
+            -- ]
+            -- [],
+        div [ class "link" ]
             [ githubIcon
-            , a [ href "https://github.com" ]
-                [ text "Author's GitHub" ]
+            , a [ href "https://github.com/tintinthong" ]
+                [ text "tintinthong" ]
             ]
-        , div [ class "link" ]
-            [ twitterIcon
-            , a [ href "https://twitter.com" ]
-                [ text "Author's Twitter" ]
-            ]
-        , div [ class "link" ]
-            [ a [ href "https://www.npmjs.com/package/elmstatic" ]
-                [ text "Created with Elmstatic" ]
-            ]
+        -- , div [ class "link" ]
+        --     [ twitterIcon
+        --     , a [ href "https://twitter.com" ]
+        --         [ text "Author's Twitter" ]
+        --     ]
+        -- , div [ class "link" ]
+        --     [ a [ href "https://www.npmjs.com/package/elmstatic" ]
+        --         [ text "Created with Elmstatic" ]
+        --     ]
         ]
 
 

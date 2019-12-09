@@ -2,7 +2,7 @@
 # layout: post
 title: "Shine with Rshiny"
 description: "A short tutorial on how to build reactive data applications using a popular framework in R"
-tags: r 
+tags: r tutorial
 ---
 
 <p>
