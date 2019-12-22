@@ -5520,15 +5520,7 @@ var $author$project$Page$footer = A2(
 				]))
 		]));
 var $elm$html$Html$h1 = _VirtualDom_node('h1');
-var $elm$html$Html$Attributes$alt = $elm$html$Html$Attributes$stringProperty('alt');
-var $elm$html$Html$img = _VirtualDom_node('img');
 var $elm$html$Html$li = _VirtualDom_node('li');
-var $elm$html$Html$Attributes$src = function (url) {
-	return A2(
-		$elm$html$Html$Attributes$stringProperty,
-		'src',
-		_VirtualDom_noJavaScriptOrHtmlUri(url));
-};
 var $elm$html$Html$ul = _VirtualDom_node('ul');
 var $author$project$Page$header = _List_fromArray(
 	[
@@ -5540,15 +5532,7 @@ var $author$project$Page$header = _List_fromArray(
 			]),
 		_List_fromArray(
 			[
-				A2(
-				$elm$html$Html$img,
-				_List_fromArray(
-					[
-						$elm$html$Html$Attributes$alt('Author\'s blog'),
-						$elm$html$Html$Attributes$src('/img/mooncake.png'),
-						A2($elm$html$Html$Attributes$attribute, 'width', '100')
-					]),
-				_List_Nil)
+				A2($elm$html$Html$h1, _List_Nil, _List_Nil)
 			])),
 		A2(
 		$elm$html$Html$div,
@@ -5593,6 +5577,22 @@ var $author$project$Page$header = _List_fromArray(
 								_List_fromArray(
 									[
 										$elm$html$Html$text('Posts')
+									]))
+							])),
+						A2(
+						$elm$html$Html$li,
+						_List_Nil,
+						_List_fromArray(
+							[
+								A2(
+								$elm$html$Html$a,
+								_List_fromArray(
+									[
+										$elm$html$Html$Attributes$href('/projects')
+									]),
+								_List_fromArray(
+									[
+										$elm$html$Html$text('Projects')
 									]))
 							])),
 						A2(
@@ -8783,7 +8783,7 @@ var $author$project$Styles$styles = function () {
 								}($rtfeldman$elm_css$Css$sansSerif)
 								])),
 							$rtfeldman$elm_css$Css$fontSize(
-							$rtfeldman$elm_css$Css$px(18)),
+							$rtfeldman$elm_css$Css$px(15)),
 							$rtfeldman$elm_css$Css$lineHeight(
 							$rtfeldman$elm_css$Css$em(1.4))
 						])),
@@ -8892,7 +8892,7 @@ var $author$project$Styles$styles = function () {
 						[
 							$rtfeldman$elm_css$Css$paddingTop(
 							$rtfeldman$elm_css$Css$px(6)),
-							$rtfeldman$elm_css$Css$textAlign($rtfeldman$elm_css$Css$center),
+							$rtfeldman$elm_css$Css$textAlign($rtfeldman$elm_css$Css$left),
 							$rtfeldman$elm_css$Css$backgroundColor(
 							$rtfeldman$elm_css$Css$hex('f2fae8')),
 							wideScreen(
@@ -8904,6 +8904,22 @@ var $author$project$Styles$styles = function () {
 									$rtfeldman$elm_css$Css$px(2),
 									$rtfeldman$elm_css$Css$solid,
 									$rtfeldman$elm_css$Css$hex('3c8765'))
+								]))
+						])),
+					A2(
+					$rtfeldman$elm_css$Css$Global$class,
+					'header-logo',
+					_List_fromArray(
+						[
+							$rtfeldman$elm_css$Css$Global$descendants(
+							_List_fromArray(
+								[
+									$rtfeldman$elm_css$Css$Global$h1(
+									_List_fromArray(
+										[
+											$rtfeldman$elm_css$Css$padding(
+											$rtfeldman$elm_css$Css$px(10))
+										]))
 								]))
 						])),
 					A2(
@@ -8955,7 +8971,7 @@ var $author$project$Styles$styles = function () {
 									$rtfeldman$elm_css$Css$px(0)),
 									$rtfeldman$elm_css$Css$padding(
 									$rtfeldman$elm_css$Css$px(0)),
-									$rtfeldman$elm_css$Css$textAlign($rtfeldman$elm_css$Css$right)
+									$rtfeldman$elm_css$Css$textAlign($rtfeldman$elm_css$Css$left)
 								]))
 						])),
 					A2(
@@ -8964,7 +8980,7 @@ var $author$project$Styles$styles = function () {
 					_List_fromArray(
 						[
 							$rtfeldman$elm_css$Css$maxWidth(
-							$rtfeldman$elm_css$Css$vw(100))
+							$rtfeldman$elm_css$Css$vw(50))
 						])),
 					A2(
 					$rtfeldman$elm_css$Css$Global$class,

@@ -53,13 +53,14 @@ markdown s =
 
 header : List (Html Never)
 header =
-    [ 
-        div [ class "header-logo" ]
+     [ 
+     div [ class "header-logo" ]
         [ 
-            img [ alt "Author's blog", src "/img/mooncake.png", attribute "width" "100" ]
-            []
-        ]
-    , div [ class "navigation" ]
+            h1 [] []
+            -- img [ alt "Author's blog", src "/img/logo.png", attribute "width" "100" ]
+            -- []
+        ],
+     div [ class "navigation" ]
         [ ul []
             [ li []
                 [ a [ href "/about" ]
@@ -70,9 +71,14 @@ header =
                     [ text "Posts" ]
                 ]
             , li []
+                [ a [ href "/projects" ]
+                    [ text "Projects" ]
+                ]
+            , li []
                 [ a [ href "/contact" ]
                     [ text "Contact" ]
                 ]
+            
             ]
         ]
     ]

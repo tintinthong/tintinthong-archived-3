@@ -24,7 +24,7 @@ styles =
             , backgroundColor <| hex "ffffff"
             , Css.color <| hex "363636"
             , fontFamilies [ "Open Sans", "Arial", .value sansSerif ]
-            , fontSize <| px 18
+            , fontSize <| px 15
             , lineHeight <| Css.em 1.4
             ]
         , a
@@ -49,16 +49,25 @@ styles =
         , Css.Global.small [ fontSize <| pct 65 ]
         , class "header-logo"
             [ paddingTop <| px 6
-            , textAlign center
+            , textAlign left
             , backgroundColor <| hex "f2fae8"
-            , wideScreen [ textAlign left, borderBottom3 (px 2) solid (hex "3c8765") ]
+            , wideScreen [ 
+                textAlign left, borderBottom3 (px 2) solid (hex "3c8765") ]
+            ]
+        , class "header-logo"
+            [ descendants
+                [ h1
+                    [
+                        padding <| px 10
+                    ]
+                ]
             ]
         , class "navigation"
             [ textAlign center
             , borderBottom3 (px 2) solid (hex "3c8765")
             , backgroundColor <| hex "f2fae8"
             , padding <| px 10
-            , marginTop <| px -20
+            , marginTop <| px -20 
             , descendants
                 [ ul
                     [ margin <| px 0
@@ -70,9 +79,9 @@ styles =
                     , marginRight <| px 20
                     ]
                 ]
-            , wideScreen [ marginTop <| px 0, padding <| px 0, textAlign right ]
+            , wideScreen [ marginTop <| px 0, padding <| px 0, textAlign left ]
             ]
-        , class "content" [ Css.maxWidth <| vw 100 ]
+        , class "content" [ Css.maxWidth <| vw 50 ]
         , class "footer"
             [ textAlign center
             , borderTop3 (px 2) solid (hex "2f4858")
