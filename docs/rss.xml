@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+    <channel>
+        <title>Author&apos;s fancy blog</title>
+        <link>https://example.com/posts</link>
+        <description>Author&apos;s blog posts</description>
+        <lastBuildDate>Sun, 22 Dec 2019 02:37:26 GMT</lastBuildDate>
+        <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+        <generator>Elmstatic</generator>
+        <language>en</language>
+        <image>
+            <title>Author&apos;s fancy blog</title>
+            <url>https://example.com/img/logo.png</url>
+            <link>https://example.com/posts</link>
+        </image>
+        <copyright>Copyright: Author</copyright>
+        <item>
+            <title><![CDATA[How to Build a Hangman Game Real Quick]]></title>
+            <link>https://example.com/posts/2019-06-09-how-to-build-a-hangman-game-real-quick</link>
+            <guid>https://example.com/posts/2019-06-09-how-to-build-a-hangman-game-real-quick</guid>
+            <pubDate>Sun, 09 Jun 2019 00:00:00 GMT</pubDate>
+            <description><![CDATA[
+
+   -->
+
+   -->
+
+It seems to me that one of the first few things that you'll be told to do as a new javascript programmer is to build a game. At Hacker Collective, we attempted to build a hangman game in the fastest time possible; it took me about 4 hours to build this game.
+
+Note: This article is most suitable for someone who knows Javascript fundamentals.
+
+Introduction
+
+A lot of my ideas were extracted from a codepen. The elements of a basic hangman game is straightforward. Have a:
+
+Keyboard ...]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Shine with Rshiny]]></title>
+            <link>https://example.com/posts/2019-06-13-shine-with-rshiny</link>
+            <guid>https://example.com/posts/2019-06-13-shine-with-rshiny</guid>
+            <pubDate>Thu, 13 Jun 2019 00:00:00 GMT</pubDate>
+            <description><![CDATA["A short tutorial on how to build reactive data applications using a popular framework in R"]]></description>
+        </item>
+    </channel>
+</rss>
